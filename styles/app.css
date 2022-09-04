@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	text-shadow: 2px 1px 0 #0c1727;
+}
+
+.button {
+	@apply
+		inline-block py-1 px-2 mx-2
+		font-bold text-2xl
+		bg-blue-500 hover:bg-blue-600 text-blue-50 shadow-box hover:shadow-box-lg
+		transition-all duration-200;
+	text-shadow: 2px 2px 0 #0e1727;
+}
